@@ -77,7 +77,7 @@ int main()
         }
     }
 
-    long long sum = 0;
+    int sum = 0;
     for (int i = 0 ; i < 10000000 ; ++i)
         sum += vector.get(i);
 
